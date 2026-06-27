@@ -73,6 +73,7 @@ const rules: KarabinerRules[] = [
       f: app('Finder'),
 
       // bottom row
+      x: app('Chrome'),
       c: app('Calendar'),
       b: app('Books'),
       n: app('Notes'),
