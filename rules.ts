@@ -56,7 +56,7 @@ const rules: KarabinerRules[] = [
       2: app('Zen'),
       3: app('Visual Studio Code'),
       4: app('DBeaver'),
-      5: app('Codex'),
+      // 5: app('Codex'),
       6: app('Bruno'),
       7: app('Spotify'),
       8: app('Obsidian'),
@@ -67,7 +67,7 @@ const rules: KarabinerRules[] = [
       t: app('Toggl Track'),
 
       // center row
-      a: app('ChatGPT'),
+      a: app('GPT'),
       s: app('Slack'),
       d: app('Dictionary'),
       f: app('Finder'),
