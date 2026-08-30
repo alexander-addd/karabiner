@@ -63,6 +63,7 @@ const rules: KarabinerRules[] = [
       9: app('Telegram'),
 
       // top row
+      w: app('Google Chrome'),
       r: app('Reminders'),
       t: app('Toggl Track'),
 
@@ -71,9 +72,9 @@ const rules: KarabinerRules[] = [
       s: app('Slack'),
       d: app('Dictionary'),
       f: app('Finder'),
+      j: app('Claude'),
 
       // bottom row
-      x: app('Google Chrome'),
       c: app('Calendar'),
       b: app('Books'),
       n: app('Notes'),
