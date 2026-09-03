@@ -73,6 +73,7 @@ const rules: KarabinerRules[] = [
       d: app('Dictionary'),
       f: app('Finder'),
       j: app('Claude'),
+      k: app('Microsoft Teams'),
 
       // bottom row
       c: app('Calendar'),
