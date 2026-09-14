@@ -55,17 +55,17 @@ const rules: KarabinerRules[] = [
       1: app('Alacritty'),
       2: app('Zen'),
       3: app('Visual Studio Code'),
-      4: app('DBeaver'),
-      5: app('YT Music'),
-      6: app('Bruno'),
+      4: app('T3 Code (Alpha)'),
+      5: app('DBeaver'),
+      6: app('YT Music'),
       7: app('Spotify'),
       8: app('Obsidian'),
-      9: app('Telegram'),
 
       // top row
       w: app('Google Chrome'),
       r: app('Reminders'),
       t: app('Toggl Track'),
+      y: app('Telegram'),
 
       // center row
       a: app('GPT'),
