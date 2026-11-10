@@ -48,6 +48,8 @@ const rules: KarabinerRules[] = [
     j: { to: [{ key_code: 'down_arrow' }] },
     k: { to: [{ key_code: 'up_arrow' }] },
     l: { to: [{ key_code: 'right_arrow' }] },
+    u: { to: [{ key_code: 'page_up' }] },
+    d: { to: [{ key_code: 'page_down' }] },
 
     // Open
     o: {
