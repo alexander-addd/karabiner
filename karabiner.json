@@ -149,12 +149,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -233,12 +233,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -317,12 +317,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -401,12 +401,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -485,12 +485,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -513,7 +513,7 @@
             ]
           },
           {
-            "description": "Hyper Key + u",
+            "description": "Hyper Key + equal_sign",
             "manipulators": [
               {
                 "to": [
@@ -523,7 +523,7 @@
                 ],
                 "type": "basic",
                 "from": {
-                  "key_code": "u",
+                  "key_code": "equal_sign",
                   "modifiers": {
                     "mandatory": [
                       "left_control",
@@ -569,12 +569,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -597,7 +597,7 @@
             ]
           },
           {
-            "description": "Hyper Key + d",
+            "description": "Hyper Key + hyphen",
             "manipulators": [
               {
                 "to": [
@@ -607,7 +607,7 @@
                 ],
                 "type": "basic",
                 "from": {
-                  "key_code": "d",
+                  "key_code": "hyphen",
                   "modifiers": {
                     "mandatory": [
                       "left_control",
@@ -653,12 +653,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -744,12 +744,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -1495,12 +1495,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -1818,12 +1818,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_u",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_d",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
