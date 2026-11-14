@@ -149,12 +149,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -233,12 +233,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -317,12 +317,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -401,12 +401,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -485,96 +485,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
                     "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_o",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_spacebar",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_q",
-                    "value": 0
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "description": "Hyper Key + equal_sign",
-            "manipulators": [
-              {
-                "to": [
-                  {
-                    "key_code": "page_up"
-                  }
-                ],
-                "type": "basic",
-                "from": {
-                  "key_code": "equal_sign",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_control",
-                      "left_option",
-                      "left_shift",
-                      "left_command"
-                    ],
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper",
-                    "value": 1
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_0",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_h",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_j",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_k",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_l",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
                     "name": "hyper_sublayer_equal_sign",
-                    "value": 0
-                  },
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
@@ -602,7 +518,7 @@
               {
                 "to": [
                   {
-                    "key_code": "page_down"
+                    "key_code": "page_up"
                   }
                 ],
                 "type": "basic",
@@ -653,12 +569,96 @@
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_hyphen",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_spacebar",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_q",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Hyper Key + equal_sign",
+            "manipulators": [
+              {
+                "to": [
+                  {
+                    "key_code": "page_down"
+                  }
+                ],
+                "type": "basic",
+                "from": {
+                  "key_code": "equal_sign",
+                  "modifiers": {
+                    "mandatory": [
+                      "left_control",
+                      "left_option",
+                      "left_shift",
+                      "left_command"
+                    ],
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper",
+                    "value": 1
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_0",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_h",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_j",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_k",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_l",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
                     "name": "hyper_sublayer_hyphen",
+                    "value": 0
+                  },
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -744,12 +744,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -1495,12 +1495,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {
@@ -1818,12 +1818,12 @@
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_equal_sign",
+                    "name": "hyper_sublayer_hyphen",
                     "value": 0
                   },
                   {
                     "type": "variable_if",
-                    "name": "hyper_sublayer_hyphen",
+                    "name": "hyper_sublayer_equal_sign",
                     "value": 0
                   },
                   {

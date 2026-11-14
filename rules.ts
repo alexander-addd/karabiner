@@ -48,8 +48,8 @@ const rules: KarabinerRules[] = [
     j: { to: [{ key_code: 'down_arrow' }] },
     k: { to: [{ key_code: 'up_arrow' }] },
     l: { to: [{ key_code: 'right_arrow' }] },
-    'equal_sign': { to: [{ key_code: 'page_up' }] },
-    'hyphen': { to: [{ key_code: 'page_down' }] },
+    hyphen: { to: [{ key_code: 'page_up' }] },
+    equal_sign: { to: [{ key_code: 'page_down' }] },
 
     // Open
     o: {
